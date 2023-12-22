@@ -27,39 +27,39 @@
           document.calculator.display.value = 'Error';
         }
       } function sqrtcal() {
-     display.value = Math.sqrt(display.value);
+      display.value = Math.sqrt(display.value);
      } function cbrtcal(){
       display.value = Math.cbrt(display.value);
      }
     </script>
 
    <form name="calculator">
-    <input type="text" name="display" id="display" style="width: 165px;" disabled>
-	 <br>
-		<input type="button" value="sqrt" onclick="sqrtcal()">
-		<input type="button" value="cbrt" onclick="cbrtcal()">
-		<input type="button" value="^" onclick="addToDisplay('**')">
-	   <input type="button" value="C" onclick="clearDisplay()">
-	 <br>
-      <input type="button" value="7" onclick="addToDisplay('7')">
-      <input type="button" value="8" onclick="addToDisplay('8')">
-      <input type="button" value="9" onclick="addToDisplay('9')">
-	   <input type="button" value="/" onclick="addToDisplay('/')">
-    <br>
+    <input type="text" name="display" id="display" style="width: 165px;" disabled> 
+     <br>
+       <input type="button" value="sqrt" onclick="sqrtcal()">
+       <input type="button" value="cbrt" onclick="cbrtcal()">
+       <input type="button" value="^" onclick="addToDisplay('**')">
+       <input type="button" value="C" onclick="clearDisplay()">
+     <br>
+       <input type="button" value="7" onclick="addToDisplay('7')">
+       <input type="button" value="8" onclick="addToDisplay('8')">
+       <input type="button" value="9" onclick="addToDisplay('9')">
+       <input type="button" value="/" onclick="addToDisplay('/')">
+     <br>
       <input type="button" value="4" onclick="addToDisplay('4')">
       <input type="button" value="5" onclick="addToDisplay('5')">
       <input type="button" value="6" onclick="addToDisplay('6')">
-	   <input type="button" value="*" onclick="addToDisplay('*')">
-    <br>
+      <input type="button" value="*" onclick="addToDisplay('*')">
+     <br>
       <input type="button" value="1" onclick="addToDisplay('1')">
       <input type="button" value="2" onclick="addToDisplay('2')">
       <input type="button" value="3" onclick="addToDisplay('3')">
-	   <input type="button" value="-" onclick="addToDisplay('-')">
-    <br>
+      <input type="button" value="-" onclick="addToDisplay('-')">
+     <br>
       <input type="button" value="0" onclick="addToDisplay('0')">
       <input type="button" value="." onclick="addToDisplay('.')">
       <input type="button" value="=" onclick="calculate()">
-	   <input type="button" value="+" onclick="addToDisplay('+')">
+      <input type="button" value="+" onclick="addToDisplay('+')">
    </form>
   </body>
 </html>
