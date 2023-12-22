@@ -12,6 +12,9 @@
   margin:40px;
   }input.btn-large{
    font-size:24px;
+	}input#display{
+	width:235px;
+	font-size:28px;
 	}
   </style>
    <!-- Compiled and minified CSS -->
@@ -20,7 +23,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
  </head>
-  <body>
+  <body style="margin-left:80px">
     <script>
       function addToDisplay(value) {
         document.calculator.display.value += value;
@@ -44,7 +47,7 @@
     </script>
 
    <form name="calculator">
-    <input type="text" name="display" id="display" style="width: 165px;" disabled> 
+    <input type="text" name="display" id="display" disabled> 
      <br>
 	  <br>
        <input type="button" class="btn-large" value="√" onclick="sqrtcal()">
